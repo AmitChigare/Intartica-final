@@ -1,0 +1,61 @@
+.carousel-img{
+    width: 380px;
+    height: 526px;
+    /* position: relative; */
+}
+
+.my-carousel .rotating-element{
+    position: absolute;
+    transform: scale(0.6);
+    top: -140px;
+    left: -40px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.carousel-img-main{
+    height: 90vh;
+    width: 100%;
+    /* position: relative; */
+}
+
+.estimator-btn{
+    position: absolute;
+    top: 45%;
+    background-color: black !important;
+    color: #fff !important;
+    right: 1rem;
+}
+
+.float-btn{
+    position: absolute;
+    top: 115%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    color: var(--White, #FFF);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 1.2rem 2.4rem !important;
+    /* padding: 1rem 2.5rem !important; */
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-img{
+        width: 200px;
+        height: 326px;
+        /* position: relative; */   
+    }
+
+    .float-btn{
+        top: 100%;
+        right: 50%;
+        padding: 6px!important;
+        font-size: 14px;
+    }
+
+    .my-carousel .rotating-element{
+        transform: scale(0.3);
+        top: -140px;
+        left: -90px;
+    }
+}

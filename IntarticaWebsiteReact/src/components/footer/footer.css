@@ -1,0 +1,94 @@
+
+
+.footer{
+    background: #E52B50;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.f-1, .f-2{
+    width: 50%;
+}
+
+.logo-img{
+    background: url('../../images/Intartica-logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 209px;
+    height: 84px;
+}
+
+
+li a{
+    color: #fff !important;
+}
+
+li{
+    margin: 1.5rem 0 !important;
+}
+
+ul{
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.social-icons{
+    gap: 1rem;
+}
+
+.social-icons a{
+    height: 2rem !important;
+}
+
+.footer .icon{
+    font-size: 2rem;
+    color: #fff !important;
+    margin-right: 1rem;
+}
+
+.social, .services-1, .services-2, .contact-us{
+    width: 100%;
+    padding: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+      padding-top: 3rem;
+      flex-direction: column;
+      font-size: 0.8rem;
+    }
+  
+    .logo-img {
+      width: 150px;
+      height: 60px;
+    }
+  
+    .social, .services-1, .services-2, .contact-us {
+      padding: 1rem;
+    }
+
+    li{
+        margin: 1rem 0 !important;
+    }
+  
+    .social-icons {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .footer .icon {
+      font-size: 1.5rem;
+      margin-right: 0rem;
+    }
+
+    .f-1, .f-2{
+        width: 100%;
+    }
+  }
+  
+  

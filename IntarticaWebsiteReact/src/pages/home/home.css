@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.homeContainer{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.homeTitle{
+  width: 1024px;
+  font-size: 20px;
+}
+
+.btn{
+  border-radius: 0 !important;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.primary-color{
+  color: #E52B50 !important;
+}
+
+.container{
+  margin: 32px 16px;
+}
+
+@keyframes rotate {
+  100% {
+      transform: rotate(1turn);
+  }
+}
+
+.video-container .rotating-element{
+  position: absolute;
+  transform: scale(0.6);
+  top: -160px;
+  left: 170px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.video-container .rotating-text {
+  animation: rotate 5s linear infinite;
+  transform-origin: 50% 50%;
+  transition: 1s fill;
+  /* position: absolute; */
+  /* top: 0; */
+}
+
+.video-container .rotating-text:hover {
+  animation-play-state: paused;
+  fill: lightgray;
+}
+
+.video-container {
+  position: relative;
+  width: 99vw;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.video-container .bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(44, 44, 44, 0.1);
+}
+
+.video-container .contact-home {
+  position: absolute;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  border-radius: 8px;
+  background-color: rgba(229, 43, 80, 0.7);
+  top: 15%;
+  right: 4rem;
+  width: 400px;
+  height: 530px;
+  z-index: 9;
+  color: #fff;
+}
+.video-container .contact-home input {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.video-container .contact-home button {
+  border-radius: 4rem;
+}
+
+.video-container .contact-home h3{
+  color: var(#41303E);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ht{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ht .heading{
+  color: var(--neutral-900, #2C2C2C);
+  text-align: center;
+  font-family: inter;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 96px; 
+  letter-spacing: -1.125px;
+}
+
+
+.heading-tagline{
+  color: #444 ;
+  width: 75%;
+  text-align: center;
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px; 
+}
+
+.contact-home{
+  position: relative;
+  animation: form-animate 1s ease-in-out;
+}
+
+@keyframes form-animate {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  50%{
+    transform: translateY(50px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+}
+
+.contact-home .close-button{
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+  transform: scale(0.8);
+}
+
+.awards{
+  display: flex !important;
+  background-color: #0054A2;
+  color: white;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.award{
+  display: flex !important;
+  padding: 1rem 1.5rem;
+}
+
+.why-us{
+  position: absolute;
+  text-transform: uppercase;
+  /* transform: translate(50%); */
+  transform: rotate(-90deg);
+  left: 0;
+  top: 40%;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.549);
+}
+
+
+/* #estimatorBtn {
+  height: 160px;
+  font-size: 1rem;
+  animation: animate 5s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 7rem;
+} */
+
+@keyframes animate {
+  from {
+      transform: rotate(0deg);
+  }
+
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+span {
+  /* position: absolute; */
+  transform-origin: 0 80px;
+}
+
+@media screen and (max-width: 600px){
+  .ht .heading{
+    font-size: 2rem;
+    line-height: 2rem; 
+  }
+  
+  .heading-tagline{
+    font-size: 1rem;
+    line-height: 24px; /* 160% */
+  }
+
+  .video-container .contact-home {
+    display: none;
+  }
+
+  .video-container .contact-home p{
+    font-size: 0.8rem;
+  }
+
+  .awards{
+    padding: 0 1.4rem;
+    display: none !important;
+    /* font-size: 42.5%; */
+  }
+  
+  .award{
+    padding: .5rem 0.2rem;
+  }
+
+  .award h6{
+    font-size: 0.8rem;
+  }
+  .award p{
+    font-size: 0.6rem;
+  }
+  
+  .why-us{
+    left: -10px;
+    font-size: 60%;
+  }
+}

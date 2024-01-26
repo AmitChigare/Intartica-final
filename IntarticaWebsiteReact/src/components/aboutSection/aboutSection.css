@@ -1,0 +1,145 @@
+.about-heading{
+    color: var(--neutral-900, #2C2C2C);
+    font-family: Playfair Display;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 72px; /* 150% */
+    letter-spacing: -1.2px;
+}
+
+.about-container button{
+    padding: 1rem;
+}
+
+.services-heading{
+    color: #1F1F1F;
+    font-family: Inter;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-heading1{
+    color: #E52B50;
+    font-family: Playfair Display;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -1.2px;
+}
+
+.about-para{
+    color: var(--neutral-700, #444);
+    font-family: Outfit;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; 
+}
+
+.services-para{
+    color: #545454;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 175.483%; /* 42.116px */
+}
+
+.image-1{
+    margin-top: -3rem;
+}
+
+.as-2{
+    gap: 3rem;
+    position: relative;
+}
+
+.about-section img{
+    height: 480px;
+    width: 285px;
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.rotating-element{
+    position: absolute;
+    transform: scale(0.6);
+    top: -160px;
+    left: 170px;
+    cursor: pointer;
+}
+
+.rotating-text {
+  animation: rotate 5s linear infinite;
+  transform-origin: 50% 50%;
+  transition: 1s fill;
+  /* position: absolute; */
+  /* top: 0; */
+}
+
+.rotating-text:hover {
+  animation-play-state: paused;
+  fill: lightgray;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .as-1{
+        flex-direction: column;
+    }
+
+    .about-heading{
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+
+    .services-heading{
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+
+    .about-heading1{
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+
+    .about-para{
+        font-size: 1rem;
+    }
+
+    .services-para{
+        font-size: 1rem;
+    }
+
+    .about-container button{
+        padding: 0.5rem;
+    }
+
+    .image-1{
+        margin-top: -2rem;
+    }
+
+    .as-2{
+        gap: 2rem;
+    }
+
+    .as-2 .rotating-element{
+        transform: scale(0.35);
+        top: -160px;
+        left: 40px;
+        cursor: pointer;
+    }
+
+    .about-section img{
+        height: 220px;
+        width: 155px;
+    }
+}

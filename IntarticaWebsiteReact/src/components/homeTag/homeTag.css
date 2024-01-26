@@ -1,0 +1,25 @@
+.redTag {
+    color: #E52B50;
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 90px;
+}
+
+.redTag::before {
+    content: "";
+    position: absolute;
+    left: -70px; /* Adjust the distance of the line from the text */
+    top: 50%;
+    width: 60px;
+    height: 2px;
+    background-color: #E52B50;
+    display: inline-block; /* Use inline-block instead of inline */
+}
+
+.redTag span {
+    margin-left: 10px; /* Adjust the space between the line and the text */
+}

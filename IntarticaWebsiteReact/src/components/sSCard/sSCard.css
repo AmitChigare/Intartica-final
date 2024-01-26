@@ -1,0 +1,87 @@
+.builder{
+    color: #000;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.third-build-container{
+    gap: 2rem;
+    padding: 2rem 2rem;
+}
+
+.left-card, .right-card{
+    gap: 3rem;
+}
+
+.right-card{
+    margin-top: -5rem;
+}
+
+.third-build-container .builder-cards{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.third-build-container .builder-card{
+    background: #FFF;
+    box-shadow: 0px 11.103px 66.62px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #000;
+    padding: 6rem 1rem;
+    width: 25rem;
+}
+
+.third-build-container .builder-card h1{
+    color: #E52B50;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.third-build-container .builder-card p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 600px){
+    .builder{
+        font-size: 1.5rem;
+        margin-bottom: 0 !important;
+    }
+
+    .third-build-container{
+        gap: 1rem;
+        padding: 0rem;
+    }
+    
+    .left-card, .right-card{
+        gap: 2rem;
+    }
+    
+    .right-card{
+        margin-top: -2rem;
+    }
+
+    .third-build-container .builder-cards{
+        gap: 1rem;
+    }
+    
+    .third-build-container .builder-card{
+        padding: 1rem 1rem;
+        box-shadow: 0px 11px 16px 0px rgba(0, 0, 0, 0.15);
+        width: 10rem;
+        /* height: 12rem; */
+    }
+
+    .third-build-container .builder-card h1{
+        font-size: 1.2rem;
+    }
+    
+    .third-build-container .builder-card p{
+        font-size: 0.8rem;
+    }
+}

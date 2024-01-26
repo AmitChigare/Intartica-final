@@ -1,0 +1,55 @@
+.percentage{
+    gap: 1rem;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.1);
+    /* margin-top: -50px !important; */
+}
+
+.number{
+    font-size: 3.2rem;
+    font-family: Playfair Display;
+}
+
+.a-per{
+    gap: 1rem;
+}
+
+.a-per h6{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.a-per p{
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 600px){
+    .percentage{
+        gap: 0.5rem;
+    }
+
+    .number{
+        font-size: 1.2rem;
+    }
+
+    .a-per{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        gap: 0;
+    }
+    
+    .a-per h6{
+        font-size: .7rem;
+        text-align: center;
+    }
+    
+    .a-per p{
+        font-size: 0.6rem;
+        text-align: center;
+        /* width: 50%; */
+    }
+}

@@ -1,0 +1,55 @@
+.service-bg{
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    /* background-color: #b6b6b6; */
+}
+
+.service-bg .info{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0, -50%);
+    width: 35%;
+    font-family: Eudoxus Sans;
+}
+
+.service-bg .info h1{
+    color: #E52B50;
+    font-size: 82.68px;
+    font-weight: 700;
+    line-height: 130%; /* 107.484px */
+}
+
+.service-bg .info h2{
+    color: var(--Text-Color, #151411);
+    font-size: 49.689px;
+    font-weight: 700;
+}
+
+.service-bg .info p{
+    color: #464250;
+    font-size: 23.254px;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 600px){
+    .service-bg .info{
+        width: 90%;
+    }
+
+    .service-bg .info h1{
+        font-size: 56px;
+    }
+    
+    .service-bg .info h2{
+        font-size: 32px;
+    }
+    
+    .service-bg .info p{
+        font-size: 16px;
+    }
+}

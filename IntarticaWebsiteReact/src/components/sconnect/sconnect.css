@@ -1,0 +1,60 @@
+.sconnect-container{
+    /* background: url("https://picsum.photos/200/300"); */
+    background-position-x: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.sconnect-container .main{
+    /* filter: opacity(0.6); */
+    background: rgb(0, 0, 0, 0.6);
+    padding: 3rem;
+    color: #fff;
+    width: 505px;
+    position: absolute;
+    top: 55%;
+    right: 58%;
+}
+
+
+.sconnect-container .main h6{
+    border-radius: 19px;
+    background: #FFF;
+    padding: .5rem 1.2rem;
+    color: #201F1D;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    width: max-content;
+}
+
+.sconnect-container .main button{
+    background: #E52B50;
+    padding: 0.6rem 1.6rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px){
+    .sconnect-container .main {
+        padding: 1rem;
+        width: 90%;
+        left: 5%;
+    }
+
+    .sconnect-container .main p{
+        font-size: 12px;
+    }
+
+    .sconnect-container .main h6{
+        padding: .4rem 1rem;
+        font-size: 12px;
+    }
+
+    .sconnect-container .main button{
+        font-size: 12px;
+    }
+}

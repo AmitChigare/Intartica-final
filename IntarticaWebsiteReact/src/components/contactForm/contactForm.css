@@ -1,0 +1,61 @@
+/* Add these styles to your CSS file or style section */
+
+.contact-form-container {
+    /* padding: 0rem 0; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+.contact-form-container .form-control {
+    margin-bottom: 10px;
+    border: none;
+    padding: 0;
+}
+
+.contact-form-container input, .contact-form-container select {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+
+input:focus, select:focus  {
+    outline: none; 
+    border-color: #DD5471; 
+    /* box-shadow: 0 0 5px rgba(255, 0, 0, 0.5); */
+  }
+  select::-ms-expand {
+    display: none;
+  }
+
+.error {
+    color: #DD5471;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.contact-form-container button {
+    padding: 12px 24px;
+    background: #DD5471;
+    width: 100%;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 600px){
+  .contact-form-container input, .contact-form-container select {
+    padding: 1rem;
+    font-size: 12px;
+    border-radius: 4px;
+    padding-left: 1rem;
+}
+.error{
+  font-size: 12px;
+}
+}

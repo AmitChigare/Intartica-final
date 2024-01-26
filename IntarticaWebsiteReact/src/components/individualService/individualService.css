@@ -1,0 +1,107 @@
+.ssecond-container{
+    gap: 3rem;
+}
+
+.build-img{
+    width: 50%;
+}
+
+.build-img img{
+   width: 100%;
+   height: 100%;
+}
+
+.right-container{
+    width: 50%;
+}
+
+.ssecond-container .right-container {
+    font-family: Work Sans;
+}
+
+.ssecond-container .right-container h1{
+    color: #201F1D;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 48px; 
+}
+
+.ssecond-container .right-container p{
+    color: #4F4F4F;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 34px; 
+    line-height: 34px;
+}
+
+.ssecond-container .right-container button{
+    color: #FFF;
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    font-weight: 600;
+    background: #E52B50;
+    width: max-content;
+}
+
+.l-project-image-container{
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    /* width: 100vw; */
+}
+
+.my-7{
+    margin: 5rem auto !important;
+}
+
+.l-project-image-container .image {
+    flex-shrink: 0; /* Prevent images from shrinking */
+    width: 30rem; /* Ensure images take the full width of the container */
+    object-fit: cover; /* Maintain aspect ratio without distorting */
+}
+
+.l-project-image-container-h {
+    color: #201F1D;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px; /* 114.583% */
+}
+
+@media screen and (max-width: 600px){
+    .ssecond-container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .build-img{
+        width: 100%;
+    }
+
+    .right-container{
+        width: 100%;
+    }
+
+    .ssecond-container .right-container h1{
+        font-size: 1.5rem;
+        line-height: 1.5rem; 
+    }
+    
+    .ssecond-container .right-container p{
+        font-size: 0.8rem;
+        line-height: 1.5rem; 
+    }
+    
+    .ssecond-container .right-container button{
+        font-size: 1rem;
+        padding: 0.4rem 1rem;
+    }
+
+    .l-project-image-container .image {
+        width: 20rem;
+    }
+
+    .l-project-image-container-h {
+        font-size: 1.5rem;
+    }
+}
