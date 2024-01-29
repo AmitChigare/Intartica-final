@@ -1,13 +1,16 @@
-.navbar{
+
+
+nav {
   display: flex;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
-  position: sticky !important;
-  top: 0;
-  z-index: 999;
   background-color: #fff;
+  color: white;
+  position: sticky;
+  top: 0;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  /* padding: 0.5rem 0; */
+  z-index: 999;
 }
 
 .home-logo{
@@ -16,50 +19,100 @@
   cursor: pointer;
 }
 
-.option{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.nav-btn{
-  /* margin: 8px 16px; */
-  padding: 12px 20px;
-}
 
-.nav-active{
-  color: #E52B50;
-}
 
 .nav-btn a{
   color: inherit;
   text-decoration: none;
 }
 
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+ list-style: none;
+ margin: 1rem !important; 
+}
+
+/* nav ul li a:not(.active):hover {
+  background-color:#172554 ;
+} */
+
+nav .menu {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2rem;
+  height: 1.8rem;
+}
+
+nav .menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: #E52B50;
+  border-radius: 0.2rem;
+}
+
+nav ul li a {
+  margin: 0.2rem 0.5rem;
+  color: black !important;
+}
+
 .contact-btn{
   text-transform: uppercase;
-  color: white;
+  color: white !important;
 }
 
-@media screen and (max-width: 600px) {
-  .navbar{
-    padding-right: 12px;
+.nav-active a{
+  color: #E52B50 !important;
+}
+
+
+@media (max-width: 480px) {
+  nav{
+    padding: 1rem 0;
   }
-  
+
+  nav .menu {
+      display: flex;
+      top: 1.5rem;
+      right: 1rem;
+  }
+
   .home-logo{
-    width: 100px;
+    width: 136px;
+    height: 100%;
+    cursor: pointer;
   }
 
-  .nav-btn {
-    padding: 3px 14px;
+  nav {
+      flex-direction: column;
+      align-items: flex-start;
   }
-  .nav-btn a{
-    font-size: 11px;
+
+  nav ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 0.25rem;
   }
-  
-  .contact-btn{
-    padding: 0;
-    font-size: 6px;
+
+  nav ul.open {
+      display: flex;
+  }
+
+  nav ul li {
+      width: 100%;
+      text-align: center;
+  }
+
+  nav ul li a {
+      margin: 0.2rem 0.5rem;
   }
 }
-

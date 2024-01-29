@@ -31,19 +31,11 @@ const ServiceBuilder = () => {
 
   const serviceFeaturesCard = [
     {
-      heading: "Windows",
+      heading: "Windows & Doors",
       desc: "Intartica embodies speed in every project. Our streamlined processes ensure",
     },
     {
-      heading: "Doors",
-      desc: "Intartica embodies speed in every project. Our streamlined processes ensure",
-    },
-    {
-      heading: "Model Flats",
-      desc: "Intartica embodies speed in every project. Our streamlined processes ensure",
-    },
-    {
-      heading: "Interiors",
+      heading: "Model Flats Interior",
       desc: "Intartica embodies speed in every project. Our streamlined processes ensure",
     },
   ];

@@ -98,10 +98,7 @@ const About = () => {
 
       <div className="d-flex container about-container">
         <div className="about-main">
-          <h1 className="about-heading">
-            Crafting Dreams, Building <br />
-            Homes
-          </h1>
+          <h1 className="about-heading">Crafting Dreams, Building Homes</h1>
           <p className="about-para">
             {" "}
             Welcome to Intartica, where we turn spaces into living masterpieces,
