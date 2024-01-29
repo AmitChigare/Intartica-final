@@ -37,8 +37,12 @@
 
 
 @media screen and (max-width: 600px){
+    .service-bg{
+        height: 50vh;
+    }
     .service-bg .info{
         width: 90%;
+        backdrop-filter: blur(1.5rem);
     }
 
     .service-bg .info h1{

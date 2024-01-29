@@ -36,11 +36,11 @@ const ServiceArchitect = () => {
     },
     {
       heading: "Maintaining Gallery",
-      desc: "Intartica embodies speed in every project. Our streamlined processes ensure",
+      desc: "(Portfolio) Intartica embodies speed in every project. Our streamlined processes ensure",
     },
     {
-      heading: "*Nil",
-      desc: "Missing part to be discussed with client",
+      heading: "Design Handling",
+      desc: "Design Services Taken by Architects",
     },
   ];
 

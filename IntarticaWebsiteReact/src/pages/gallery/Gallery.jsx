@@ -84,14 +84,14 @@ const Gallery = () => {
             >
               Images
             </div>
-            <div
+            {/* <div
               className={
                 galleryActive === "video" ? "gallery-seperator-active" : ""
               }
               onClick={() => handleGalleryClick("video")}
             >
               Videos
-            </div>
+            </div> */}
           </div>
           {galleryActive === "image" &&
             galleryImages.map((image, index) => (

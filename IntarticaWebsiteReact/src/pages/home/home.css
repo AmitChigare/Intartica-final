@@ -223,6 +223,7 @@ span {
   .heading-tagline{
     font-size: 1rem;
     line-height: 24px; /* 160% */
+    width: 100%;
   }
 
   .video-container .contact-home {
