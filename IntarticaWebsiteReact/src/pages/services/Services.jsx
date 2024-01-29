@@ -10,9 +10,9 @@ import ServiceProfile from "../../components/serviceProfile/ServiceProfile";
 import { ROUTE_PATHS } from "../../config";
 import aboutHome1 from "../../images/about-home-1.jpeg";
 import aboutHome2 from "../../images/about-home-2.jpeg";
-import serviceBg01 from "../../images/ServiceBg01.png";
-import serviceBg02 from "../../images/ServiceBg02.png";
-import serviceBg03 from "../../images/ServiceBg03.png";
+import buildersWall from "../../images/builders-wall.jpg";
+import individualHOWall from "../../images/individual-house-owners-wall.jpg";
+import architectsWall from "../../images/architects-wall.jpg";
 
 const Services = () => {
   const aboutImages = [aboutHome1, aboutHome2];
@@ -20,21 +20,21 @@ const Services = () => {
   const serviceList = [
     {
       linkTo: ROUTE_PATHS.SERVICE_OWNER,
-      imageUrl: serviceBg02,
+      imageUrl: individualHOWall,
       number: "01",
       heading: "Individual House Owners",
       desc: "Transforming Structures into Spectacles.Showcase developments with captivating model flats and add meticulous finishing touches that redefine perfection to your interiors or finishing works.",
     },
     {
       linkTo: ROUTE_PATHS.SERVICE_ARCHITECT,
-      imageUrl: serviceBg03,
+      imageUrl: architectsWall,
       number: "02",
       heading: "For Designers/Architects",
       desc: "Realize your dreams with our design services that reflect your lifestyle. We offer functional and aesthetically pleasing solutions for kitchens and wardrobes.ase and wall cabinets. ",
     },
     {
       linkTo: ROUTE_PATHS.SERVICE_BUILDER,
-      imageUrl: serviceBg01,
+      imageUrl: buildersWall,
       number: "03",
       heading: "Builders",
       desc: "At the ultimate smart home, you're met with technology before you even step through the front door.",

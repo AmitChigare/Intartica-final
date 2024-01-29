@@ -77,3 +77,9 @@
 .img-container:hover .overlay{
     opacity: 1;
 }
+
+@media screen and (max-width: 600px){
+    .gallery-container .gallery-img{
+        width: 100%;
+    }
+}
