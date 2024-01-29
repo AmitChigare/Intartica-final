@@ -22,12 +22,12 @@ const Navbar = () => {
         </Link>
       </motion.div>
       <div className="option">
-        <motion.div
+        {/* <motion.div
           {...hoverEffect}
           className={`nav-btn ${isPageActive("/") ? "nav-active" : ""}`}
         >
           <Link to="/">Home</Link>
-        </motion.div>
+        </motion.div> */}
         <motion.div
           {...hoverEffect}
           className={`nav-btn ${isPageActive("/about") ? "nav-active" : ""}`}

@@ -6,13 +6,12 @@ import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ROUTE_PATHS } from "../../config";
+import i14 from "../../images/Gallery-images/i14.jpg";
+import i15 from "../../images/Gallery-images/i15.png";
+import i16 from "../../images/Gallery-images/i16.jpg";
 
 const ServiceSection = () => {
-  const carouselImages = [
-    "https://s3-alpha-sig.figma.com/img/fc1f/24ff/6f7ad2b6addde44c97e2e9165ad32656?Expires=1702252800&Signature=PJP-Fd~jd0hoy-SJZMfS-E8fCKP9i7tUFETPrsrZL6Y5rFarUFv1msiVR6IgbiKBHlG7YVfBlDYFPo9byGs7-q31Y1lEg1A8YecXh0DPKNdG2jQlMT~2WkXyRnIbh0eJUmGL0s-~86oCJH0C98vj-D1pK39GHaPcYvsCrqrebZZqv9viCs1cQwDlqNodpXYiA3pzv169YVAhwrOYyiGNtXLGoriVrE1fCHs1Mg~bCK9Hk1BO3VdnZt3xgsbo3RVfQM~cI3Kw4Izgve6m46VotGN7Srx0I5I7suPr5C8QENolr6ozsLkTeB5XTG0ipAmU-KA84iUQuM-o16xUhuBqRA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
-    "https://media.designcafe.com/wp-content/uploads/2022/09/07162345/kitchen-interior-design-cost.jpg",
-    "https://media.designcafe.com/wp-content/uploads/2021/09/15180410/pop-ceiling-designs-for-hall.jpg",
-  ];
+  const carouselImages = [i14, i15, i16];
 
   const cardsInfo = [
     {
