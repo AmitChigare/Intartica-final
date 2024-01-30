@@ -39,6 +39,11 @@
 }
 
 @media screen and (max-width: 600px){
+    .sconnect-container{
+        height: 60vh;
+        background-position-x: -300px;
+    }
+
     .sconnect-container .main {
         padding: 1rem;
         width: 90%;

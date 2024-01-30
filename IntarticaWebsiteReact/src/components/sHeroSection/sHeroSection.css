@@ -35,6 +35,7 @@
         flex-direction: column-reverse;
         padding: 2rem;
         gap: 2rem;
+        height: 80vh;
     }
 
     .s-hero-content{

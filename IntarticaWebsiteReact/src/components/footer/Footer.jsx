@@ -36,15 +36,6 @@ const Footer = () => {
         </div>
       </div>
       <div className="d-flex f-2">
-        <div className="contact-us">
-          <h4>Info</h4>
-          <p>info@vivadecor.com</p>
-          <p>
-            Design Avenue Cityville,
-            <br />
-            CA 90210 United States
-          </p>
-        </div>
         <div className="services-1">
           <h4>Our Services</h4>
           <ul>
@@ -61,6 +52,13 @@ const Footer = () => {
               <Link to={""}>Office design</Link>
             </li>
           </ul>
+        </div>
+        <div className="contact-us">
+          <h4>Info</h4>
+          <p>
+            Registered office at 7-1/52&53, Nallagandla, Serilingampally,
+            Hyderabad - 500019, India,
+          </p>
         </div>
       </div>
     </div>

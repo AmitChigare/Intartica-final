@@ -97,8 +97,12 @@
         padding: 0.4rem 1rem;
     }
 
+    .l-project-image-container{
+        height: 30vh;
+    }
+
     .l-project-image-container .image {
-        width: 20rem;
+        width: 18rem;
     }
 
     .l-project-image-container-h {

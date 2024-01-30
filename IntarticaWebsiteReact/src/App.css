@@ -1,4 +1,17 @@
-* {
+/* * {
   font-family: "Open Sans", sans-serif;
   margin: 0;
+} */
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #E52B50; /* Set the color of the thumb (the draggable part) */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff; /* Set the color of the track (the non-draggable part) */
 }

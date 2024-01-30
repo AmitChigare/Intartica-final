@@ -56,6 +56,10 @@
     position: relative;
 }
 
+/* .about-section{
+    margin: 5rem 0 !important ;
+} */
+
 .about-section img{
     height: 480px;
     width: 285px;
@@ -96,6 +100,10 @@
         flex-direction: column;
     }
 
+    .about-section{
+        margin: 0 !important ;
+    }
+
     .about-heading{
         font-size: 2rem;
         line-height: 2.8rem;
@@ -121,6 +129,7 @@
 
     .about-container button{
         padding: 0.5rem;
+        font-size: 10px;
     }
 
     .image-1{

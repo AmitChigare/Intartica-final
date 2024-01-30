@@ -31,6 +31,14 @@ const Navbar = () => {
         <li>
           <motion.div
             {...hoverEffect}
+            className={`nav-btn ${isPageActive("/") ? "nav-active" : ""}`}
+          >
+            <Link to="/">Home</Link>
+          </motion.div>
+        </li>
+        <li>
+          <motion.div
+            {...hoverEffect}
             className={`nav-btn ${isPageActive("/about") ? "nav-active" : ""}`}
           >
             <Link to="/about">About</Link>
