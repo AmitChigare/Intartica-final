@@ -19,9 +19,6 @@ nav {
   cursor: pointer;
 }
 
-
-
-
 .nav-btn a{
   color: inherit;
   text-decoration: none;
@@ -35,6 +32,7 @@ nav ul {
 nav ul li {
  list-style: none;
  margin: 1rem !important; 
+ font-weight: 600;
 }
 
 /* nav ul li a:not(.active):hover {
@@ -48,12 +46,12 @@ nav .menu {
   right: 1rem;
   flex-direction: column;
   justify-content: space-between;
-  width: 2rem;
-  height: 1.8rem;
+  width: 1.8rem;
+  height: 1.6rem;
 }
 
 nav .menu span {
-  height: 0.4rem;
+  height: 0.25rem;
   width: 100%;
   background-color: #E52B50;
   border-radius: 0.2rem;
@@ -64,7 +62,7 @@ nav ul li a {
   color: black !important;
 }
 
-.contact-btn{
+.contact-btn a{
   text-transform: uppercase;
   color: white !important;
 }

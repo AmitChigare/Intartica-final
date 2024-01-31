@@ -16,13 +16,22 @@
 }
 
 .logo-img{
-    background: url('../../images/Intartica-logo.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #fff;
+    /* background: url('../../images/logo-white.png'); */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-color: #fff; */
+    /* border-radius: 10px; */
+    /* width: 209px;
+    height: 84px; */
+}
+.logo-img img{
+    /* background: url('../../images/logo-white.png'); */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-color: #fff; */
     border-radius: 10px;
-    width: 209px;
-    height: 84px;
+    width: 150px;
+    height: 74px;
 }
 
 

@@ -10,7 +10,7 @@ import ServiceSection from "../../components/serviceSection/ServiceSection";
 import "./home.css";
 import blueIcon from "../../images/blue-icon.png";
 import aboutHome1 from "../../images/about-home-1.jpeg";
-import aboutHome2 from "../../images/about-home-2.jpeg";
+import aboutHome2 from "../../images/about01.jpeg";
 import HeroVideo from "../../images/heroBgVideo.mp4";
 
 import { useFormik } from "formik";

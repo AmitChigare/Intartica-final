@@ -56,13 +56,14 @@
 
 .l-project-image-container .image {
     flex-shrink: 0; /* Prevent images from shrinking */
-    width: 30rem; /* Ensure images take the full width of the container */
+    width: 36rem; /* Ensure images take the full width of the container */
     object-fit: cover; /* Maintain aspect ratio without distorting */
+    height: 22rem;
 }
 
 .l-project-image-container-h {
     color: #201F1D;
-    font-family: Work Sans;
+    font-family: Inter;
     font-size: 48px;
     font-weight: 700;
     line-height: 55px; /* 114.583% */
@@ -97,8 +98,12 @@
         padding: 0.4rem 1rem;
     }
 
+    .l-project-image-container{
+        height: 30vh;
+    }
+
     .l-project-image-container .image {
-        width: 20rem;
+        width: 18rem;
     }
 
     .l-project-image-container-h {

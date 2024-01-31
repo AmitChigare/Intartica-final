@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
+import logo from "./../../images/logo-white.png";
 // import { motion } from "framer-motion;
 
 const Footer = () => {
@@ -14,9 +15,11 @@ const Footer = () => {
     <div className="footer d-flex px-3">
       <div className="d-flex f-1">
         <div className="social">
-          <div className="logo-img mb-2"></div>
+          <div className="logo-img mb-2">
+            <img src={logo} alt="" />
+          </div>
           <p>
-            VivaDecor your premier destination for your luxury and modern
+            Intartica your premier destination for your luxury and modern
             interior design
           </p>
           <div className="social-icons">
@@ -36,15 +39,6 @@ const Footer = () => {
         </div>
       </div>
       <div className="d-flex f-2">
-        <div className="contact-us">
-          <h4>Info</h4>
-          <p>info@vivadecor.com</p>
-          <p>
-            Design Avenue Cityville,
-            <br />
-            CA 90210 United States
-          </p>
-        </div>
         <div className="services-1">
           <h4>Our Services</h4>
           <ul>
@@ -61,6 +55,13 @@ const Footer = () => {
               <Link to={""}>Office design</Link>
             </li>
           </ul>
+        </div>
+        <div className="contact-us">
+          <h4>Info</h4>
+          <p>
+            Registered office at 7-1/52&53, Nallagandla, Serilingampally,
+            Hyderabad - 500019, India,
+          </p>
         </div>
       </div>
     </div>
