@@ -15,7 +15,7 @@ const SHowWeWork = ({ howWeWorkInfo }) => {
         </div>
       </div>
 
-      <div className="work-cards d-flex">
+      {/* <div className="work-cards d-flex">
         {howWeWorkInfo.wordCards.map((data, index) => (
           <div className="work-card" key={index}>
             <h4 className="card-num">{data.num}</h4>
@@ -23,7 +23,7 @@ const SHowWeWork = ({ howWeWorkInfo }) => {
             <p>{data.desc}</p>
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };

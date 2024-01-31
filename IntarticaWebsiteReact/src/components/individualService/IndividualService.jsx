@@ -36,7 +36,7 @@ const IndividualService = ({
       <SHowWeWork howWeWorkInfo={howWeWorkInfo} />
 
       <div className="container my-7">
-        <h2 className="l-project-image-container-h">Our Latest Project</h2>
+        <h2 className="l-project-image-container-h">Our Latest Projects:</h2>
         <div className="l-project-image-container">
           {latestProjectImages.map((image, index) => (
             <img

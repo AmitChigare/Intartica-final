@@ -3,6 +3,11 @@ import "./serviceOwner.css";
 import sofaIndividualService02 from "../../images/sofa-individual-service02.jpeg";
 import sofaIndividualService from "../../images/sofa-individual-service.jpeg";
 import IndividualService from "../../components/individualService/IndividualService";
+import sofaIndividualService2 from "../../images/Gallery-images/i12.jpg";
+import sofaIndividualService3 from "../../images/Gallery-images/i13.jpg";
+import sofaIndividualService4 from "../../images/Gallery-images/i14.jpg";
+import sofaIndividualService5 from "../../images/Gallery-images/i15.png";
+import sofaIndividualService6 from "../../images/Gallery-images/i16.jpg";
 
 const ServiceOwner = () => {
   const howWeWorkInfo = {
@@ -62,12 +67,12 @@ const ServiceOwner = () => {
 
   const latestProjectImages = [
     sofaIndividualService,
-    sofaIndividualService,
-    sofaIndividualService,
-    sofaIndividualService,
-    sofaIndividualService,
-    sofaIndividualService,
-    sofaIndividualService,
+    sofaIndividualService2,
+    sofaIndividualService3,
+    sofaIndividualService3,
+    sofaIndividualService4,
+    sofaIndividualService5,
+    sofaIndividualService6,
   ];
 
   const briefInfo = {

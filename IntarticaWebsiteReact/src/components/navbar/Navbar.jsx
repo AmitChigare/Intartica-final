@@ -2,7 +2,7 @@ import "./navbar.css";
 import { Link, useLocation, NavLink } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
-import logo from "../../images/Intartica-logo.png";
+import logo from "../../images/logo-transparent.png";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -65,12 +65,7 @@ const Navbar = () => {
           </motion.div>
         </li>
         <li>
-          <motion.div
-            {...hoverEffect}
-            className={`nav-btn contact-btn ${
-              isPageActive("/contact") ? "nav-active" : ""
-            }`}
-          >
+          <motion.div {...hoverEffect} className="nav-btn contact-btn">
             <Link className="btn btn-danger" to="/contact">
               Contact Us <Icon icon="ph:arrow-up-right-light" />
             </Link>

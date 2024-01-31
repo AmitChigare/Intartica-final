@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
+import logo from "./../../images/logo-white.png";
 // import { motion } from "framer-motion;
 
 const Footer = () => {
@@ -14,9 +15,11 @@ const Footer = () => {
     <div className="footer d-flex px-3">
       <div className="d-flex f-1">
         <div className="social">
-          <div className="logo-img mb-2"></div>
+          <div className="logo-img mb-2">
+            <img src={logo} alt="" />
+          </div>
           <p>
-            VivaDecor your premier destination for your luxury and modern
+            Intartica your premier destination for your luxury and modern
             interior design
           </p>
           <div className="social-icons">

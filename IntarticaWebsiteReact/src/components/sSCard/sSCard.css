@@ -1,6 +1,6 @@
 .builder{
     color: #000;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -27,23 +27,23 @@
 
 .third-build-container .builder-card{
     background: #FFF;
-    box-shadow: 0px 11.103px 66.62px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.15);
     text-align: center;
     border-radius: 20px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     padding: 6rem 1rem;
-    width: 25rem;
+    width: 25%;
 }
 
 .third-build-container .builder-card h1{
     color: #E52B50;
-    font-size: 48px;
+    font-size: 2rem;
     font-weight: 900;
 }
 
 .third-build-container .builder-card p{
     color: #000;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
 }
 

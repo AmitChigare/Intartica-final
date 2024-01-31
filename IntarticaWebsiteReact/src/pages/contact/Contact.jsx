@@ -28,7 +28,7 @@ const Contact = () => {
               temporibus laudantium. Omnis.
             </p>
             <ContactForm onSubmit={handleSubmit} />
-            <div className="d-flex justify-content-between contact-icons my-4">
+            <div className="d-flex justify-content-around contact-icons my-4">
               <div className="d-flex gap-2 align-items-center">
                 <div className="icon">
                   <Icon icon="gg:phone" />
@@ -38,7 +38,7 @@ const Contact = () => {
                   <p className="primary-color">798387525</p>
                 </div>
               </div>
-              <div className="d-flex gap-2  align-items-center">
+              {/* <div className="d-flex gap-2  align-items-center">
                 <div className="icon">
                   <Icon icon="mdi:fax" />
                 </div>
@@ -46,7 +46,7 @@ const Contact = () => {
                   <h6>FAX</h6>
                   <p className="primary-color">798387525</p>
                 </div>
-              </div>
+              </div> */}
               <div className="d-flex gap-2  align-items-center">
                 <div className="icon">
                   <Icon icon="clarity:email-solid" />
