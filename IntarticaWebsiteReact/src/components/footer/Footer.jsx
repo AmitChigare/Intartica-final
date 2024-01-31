@@ -60,7 +60,10 @@ const Footer = () => {
           <h4>Info</h4>
           <p>
             Registered office at 7-1/52&53, Nallagandla, Serilingampally,
-            Hyderabad - 500019, India,
+            Hyderabad - 500019, India
+            <br />
+            <br />
+            intarticainteriors@gmail.com | 9535636555
           </p>
         </div>
       </div>

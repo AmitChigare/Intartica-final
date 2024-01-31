@@ -14,17 +14,17 @@ const RecentWorks = () => {
     {
       imgUrl: luxury,
       heading: "Luxury Hotel Renovation",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Faucibus fringilla dui amet faucibus nam.",
+      desc: "Renovate your old and weary hotel interiors into luxury hangout spaces through Intartica.",
     },
     {
       imgUrl: villa,
       heading: "Villa Furnishing & Interior",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Faucibus fringilla dui amet faucibus nam.",
+      desc: "Top up your villas with furniture and interior designing that satisfies your taste from the top notch service provider Intartica.",
     },
     {
       imgUrl: swimming,
       heading: "Residence Swimming Pool",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Faucibus fringilla dui amet faucibus nam.",
+      desc: "Bright up your swimming pools with vibrant colours and appealing designs with Intartica’s wide spectrum of choices.",
     },
   ];
   return (

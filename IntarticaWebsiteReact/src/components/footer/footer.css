@@ -101,6 +101,11 @@ ul{
     .f-1, .f-2{
         width: 100%;
     }
+
+    .logo-img img{
+        width: 122px;
+        height: 60px;
+    }
   }
   
   

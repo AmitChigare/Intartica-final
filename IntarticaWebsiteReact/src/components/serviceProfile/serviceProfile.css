@@ -39,10 +39,13 @@
 @media screen and (max-width: 600px){
     .service-bg{
         height: 50vh;
+        background-image: none !important;
+        background-color: rgba(213, 213, 213, 0.508) !important;
+
     }
     .service-bg .info{
         width: 90%;
-        backdrop-filter: blur(1.5rem);
+        /* backdrop-filter: blur(1.5rem); */
     }
 
     .service-bg .info h1{
