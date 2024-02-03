@@ -54,13 +54,19 @@ const Footer = () => {
             <li {...hoverEffect}>
               <Link to={""}>Office design</Link>
             </li>
+            <li {...hoverEffect}>
+              <Link to={""}>Commerical Interior</Link>
+            </li>
           </ul>
         </div>
         <div className="contact-us">
           <h4>Info</h4>
           <p>
-            Registered office at 7-1/52&53, Nallagandla, Serilingampally,
-            Hyderabad - 500019, India,
+            PBNR Plaza, 2nd Floor, Opp: ICICI Bank, Nallagandla,
+            Serilingampally, Hyderabad - 500019, India.
+            <br />
+            <br />
+            contact@intartica.com | 9535636555
           </p>
         </div>
       </div>

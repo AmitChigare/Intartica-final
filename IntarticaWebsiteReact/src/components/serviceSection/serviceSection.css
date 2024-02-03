@@ -73,6 +73,7 @@
     }
     .spaces{
         font-size:  1.8rem;
+        line-height: 48px;
     }
     .transcend{
         line-height: 1.5rem; /* 120% */

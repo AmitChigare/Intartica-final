@@ -9,7 +9,7 @@ import ServiceProfile from "../../components/serviceProfile/ServiceProfile";
 // import { motion } from "framer-motion";
 import { ROUTE_PATHS } from "../../config";
 import aboutHome1 from "../../images/about-home-1.jpeg";
-import aboutHome2 from "../../images/about-home-2.jpeg";
+import aboutHome2 from "../../images/about01.jpeg";
 import buildersWall from "../../images/builders-wall.jpg";
 import individualHOWall from "../../images/individual-house-owners-wall.jpg";
 import architectsWall from "../../images/architects-wall.jpg";

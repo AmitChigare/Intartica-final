@@ -56,9 +56,9 @@
     position: relative;
 }
 
-/* .about-section{
-    margin: 5rem 0 !important ;
-} */
+.about-section{
+    padding-top: 4rem ;
+}
 
 .about-section img{
     height: 480px;
@@ -102,6 +102,7 @@
 
     .about-section{
         margin: 0 !important ;
+        padding-top: 0;
     }
 
     .about-heading{
