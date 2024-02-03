@@ -8,6 +8,7 @@ import sofaIndividualService3 from "../../images/Gallery-images/i13.jpg";
 import sofaIndividualService4 from "../../images/Gallery-images/i14.jpg";
 import sofaIndividualService5 from "../../images/Gallery-images/i15.png";
 import sofaIndividualService6 from "../../images/Gallery-images/i16.jpg";
+import Vector from "../../images/icons/Vector.png";
 
 const ServiceBuilder = () => {
   const howWeWorkInfo = {
@@ -36,10 +37,12 @@ const ServiceBuilder = () => {
 
   const serviceFeaturesCard = [
     {
+      icon: Vector,
       heading: "Windows & Doors",
       desc: "Intartica embodies speed in every project. Our streamlined processes ensure",
     },
     {
+      icon: Vector,
       heading: "Model Flats Interior",
       desc: "Intartica embodies speed in every project. Our streamlined processes ensure",
     },

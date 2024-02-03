@@ -36,6 +36,11 @@
     cursor: pointer;
 }
 
+.builder-icon{
+    width: 3rem;
+    
+}
+
 .third-build-container .builder-card h1{
     color: #E52B50;
     font-size: 2rem;

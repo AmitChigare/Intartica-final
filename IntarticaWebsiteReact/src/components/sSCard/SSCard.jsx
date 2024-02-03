@@ -9,7 +9,7 @@ const SSCard = ({ serviceFeaturesCard }) => {
         <div className="d-flex builder-cards">
           {serviceFeaturesCard.map((data, index) => (
             <div className="builder-card" key={index}>
-              <h4>*Icon Here*</h4>
+              <img className="builder-icon mb-3" src={data.icon} alt="" />
               <h1>{data.heading}</h1>
               <p>{data.desc}</p>
             </div>

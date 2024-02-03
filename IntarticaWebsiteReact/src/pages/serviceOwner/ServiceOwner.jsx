@@ -8,6 +8,11 @@ import sofaIndividualService3 from "../../images/Gallery-images/i13.jpg";
 import sofaIndividualService4 from "../../images/Gallery-images/i14.jpg";
 import sofaIndividualService5 from "../../images/Gallery-images/i15.png";
 import sofaIndividualService6 from "../../images/Gallery-images/i16.jpg";
+import Vector from "../../images/icons/Vector.png";
+import oneStopSolution from "../../images/icons/one-stop-solution.png";
+import Customization360 from "../../images/icons/360-customization.png";
+import rentalReady from "../../images/icons/rental-ready.png";
+import renovation from "../../images/icons/renovation.png";
 
 const ServiceOwner = () => {
   const howWeWorkInfo = {
@@ -36,31 +41,28 @@ const ServiceOwner = () => {
 
   const serviceFeaturesCard = [
     {
-      heading: "Design Services",
+      icon: Vector,
+      heading: "First TimeHouse Owners",
       desc: "Intartica embodies speed in every project. Our streamlined processes ensure",
     },
     {
-      heading: "Kitchen and Wardrobes",
+      icon: oneStopSolution,
+      heading: "One Stop Solution",
       desc: "Intartica embodies speed in every project. Our streamlined processes ensure",
     },
     {
-      heading: "Turnkey Services",
+      icon: Customization360,
+      heading: "360 customisation",
       desc: "Intartica embodies speed in every project. Our streamlined processes ensure",
     },
     {
-      heading: "Rental House Ready",
+      icon: rentalReady,
+      heading: "Rental Ready",
       desc: "Intartica embodies speed in every project. Our streamlined processes ensure",
     },
     {
-      heading: "Premium Products",
-      desc: "Intartica embodies speed in every project. Our streamlined processes ensure",
-    },
-    {
-      heading: "House Renovations",
-      desc: "Intartica embodies speed in every project. Our streamlined processes ensure",
-    },
-    {
-      heading: "Commercial Interiors",
+      icon: renovation,
+      heading: "Renovation",
       desc: "Intartica embodies speed in every project. Our streamlined processes ensure",
     },
   ];
