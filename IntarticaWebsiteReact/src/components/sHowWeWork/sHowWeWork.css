@@ -1,12 +1,26 @@
-.how-we-work-container {
+/* .how-we-work-container {
     position: relative;
     background-image: url("../../images/luxeImage.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    /* background-color: rgb(209, 209, 209); */
-  }
+} */
+
+.how-we-work-container {
+    /* position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 100%;
+    height: 100%;
+    transform: scale(0.9);
+}
+
+.how-we-work-container img{
+    width: 100%;
+    height: 100%;
+}
 
   .hwwc-overlay{
     width: 100%;

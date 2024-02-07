@@ -13,6 +13,7 @@ import aboutHome1 from "../../images/about-home-1.jpeg";
 import aboutHome2 from "../../images/about01.jpeg";
 import HeroVideo from "../../images/heroBgVideo.mp4";
 import { Link } from "react-router-dom";
+import { ROUTE_PATHS } from "../../config";
 
 import { useFormik } from "formik";
 
@@ -144,8 +145,8 @@ const Home = () => {
       </div>
 
       {/* <MyCarousel images={carouselImages} main={true} /> */}
-      <div className="rotating-element">
-        <Link to={"/"}>
+      <div className="rotating-element-estimator">
+        <Link to={ROUTE_PATHS.ESTIMATOR}>
           <svg
             width="280"
             height="280"

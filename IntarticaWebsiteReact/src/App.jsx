@@ -10,6 +10,7 @@ import { ROUTE_PATHS } from "./config";
 import ServiceArchitect from "./pages/serviceArchitect/ServiceArchitect";
 import ServiceOwner from "./pages/serviceOwner/ServiceOwner";
 import Gallery from "./pages/gallery/Gallery";
+import Estimator from "./pages/estimator/Estimator";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path={ROUTE_PATHS.HOME} element={<Home />} />
         <Route path={ROUTE_PATHS.ABOUT} element={<About />} />
         <Route path={ROUTE_PATHS.SERVICES} element={<Services />} />
+        <Route path={ROUTE_PATHS.ESTIMATOR} element={<Estimator />} />
         <Route path={ROUTE_PATHS.GALLERY} element={<Gallery />} />
         <Route path={ROUTE_PATHS.CONTACT} element={<Contact />} />
         <Route

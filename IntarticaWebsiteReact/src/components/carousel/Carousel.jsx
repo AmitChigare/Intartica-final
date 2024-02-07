@@ -40,7 +40,7 @@ const MyCarousel = ({ images, main }) => {
             <Carousel.Item key={index}>
               <img
                 className={`d-block w-100 carousel-img ${
-                  main ? "carousel-img-main" : ""
+                  main ? "carousel-img-main" : "carousel-img-not-main"
                 }`}
                 src={image}
                 alt={`Slide ${index + 1}`}

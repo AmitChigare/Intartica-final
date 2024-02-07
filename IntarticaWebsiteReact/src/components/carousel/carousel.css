@@ -18,6 +18,9 @@
     width: 100%;
     /* position: relative; */
 }
+.carousel-img-not-main{
+    height: 60vh;
+}
 
 .estimator-btn{
     position: absolute;

@@ -43,6 +43,15 @@ a{
   cursor: pointer;
   z-index: 999;
 }
+.rotating-element-estimator{
+  position: absolute;
+  transform: scale(0.5);
+  top: 210px;
+  left: 00px;
+  cursor: pointer;
+  z-index: 2;
+  font-weight: 600;
+}
 
 .video-container .rotating-text {
   animation: rotate 5s linear infinite;
@@ -224,6 +233,12 @@ span {
     font-size: 1rem;
     line-height: 24px; /* 160% */
     width: 100%;
+  }
+
+  .rotating-element-estimator{
+    transform: scale(0.35);
+    top: 230px;
+    left: -60px;
   }
 
   .video-container .contact-home {

@@ -8,7 +8,7 @@ const NewletterSub = () => {
     alert(`You searched for '${query}'`);
   }
   return (
-    <div className="d-flex newsSub px-3 mt-5">
+    <div className="d-flex newsSub px-3 mt-5 pt-5">
       <h1 className="h">
         Subscribe to Our Newsletter <br /> for Design Insights
       </h1>
