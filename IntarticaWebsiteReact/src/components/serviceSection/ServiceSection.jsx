@@ -42,7 +42,7 @@ const ServiceSection = () => {
   return (
     <div className="container pt-5 px-3">
       <HomeTag text="Our Services" />
-      <div className="d-flex  ss-1 justify-content-center align-items-center">
+      <div className="d-flex  ss-1 justify-content-center">
         <div className="about-container m-3">
           <h1 className="typography">
             Services That Transform,
@@ -57,7 +57,7 @@ const ServiceSection = () => {
             interior design and execution.
           </p>
         </div>
-        <div className="w-100">
+        <div className="corousel-about">
           <MyCarousel images={carouselImages} main={false} />
         </div>
       </div>

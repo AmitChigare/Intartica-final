@@ -49,7 +49,7 @@ const IndividualService = ({
         </div>
       </div>
 
-      <Sconnect />
+      {/* <Sconnect /> */}
 
       <NewletterSub />
       <Footer />

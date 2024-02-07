@@ -28,7 +28,7 @@ const RecentWorks = () => {
     },
   ];
   return (
-    <div className="container pt-5">
+    <div className="container pt-5 mt-5">
       <HomeTag text="Recent Works" />
       <div className="d-flex p-3 gap-5 rw-1">
         <div className="recent-container">

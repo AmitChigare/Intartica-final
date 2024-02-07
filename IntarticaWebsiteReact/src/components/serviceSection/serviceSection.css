@@ -2,6 +2,10 @@
     gap: 2rem;
 }
 
+.about-container{
+    width: 50%;
+}
+
 .typography{
     color: var(--neutral-900, #2C2C2C);
     font-family: Playfair Display;
@@ -23,6 +27,14 @@
     font-size: 2.8rem;
     line-height: 72px;
     letter-spacing: -1.5px;
+}
+
+.about-para{
+    width: 90%;
+}
+
+.corousel-about{
+    width: 50%;
 }
 
 .my-card{
@@ -67,6 +79,9 @@
         flex-direction: column;
         gap: 0;
     }
+    .about-container{
+        width: 100%;
+    }
     .typography{
         font-size: 2rem;
         line-height: 1.5rem; /* 120% */
@@ -78,6 +93,9 @@
     .transcend{
         line-height: 1.5rem; /* 120% */
         font-size: 2.8rem;
+    }
+    .corousel-about{
+        width: 100%;
     }
     .my-cards{
         /* flex-direction: column; */
@@ -104,6 +122,7 @@
     }
 
     .about-para{
+        width: 100%;
         font-size: 1rem;
     }
 }

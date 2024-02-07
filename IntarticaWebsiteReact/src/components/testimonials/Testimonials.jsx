@@ -5,7 +5,7 @@ import TestmonialImg from "../../images/recent-works-home01.jpeg";
 
 const Testimonials = () => {
   return (
-    <div className="container d-flex gap-4 py-2">
+    <div className="container d-flex gap-4 py-2 testimonials-container">
       <div className="t-image">
         <img src={TestmonialImg} alt="" />
       </div>

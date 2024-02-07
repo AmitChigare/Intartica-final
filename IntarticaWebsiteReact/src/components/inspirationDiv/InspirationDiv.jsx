@@ -4,7 +4,7 @@ import bedroomImg01 from "../../images/bedroom01.png";
 
 const InspirationDiv = () => {
   return (
-    <div className="d-flex container gap-5 py-4 cont-d">
+    <div className="d-flex container gap-5 py-4 cont-d mt-5">
       <div>
         <img src={bedroomImg01} alt="crashed" className="crashed" />
       </div>

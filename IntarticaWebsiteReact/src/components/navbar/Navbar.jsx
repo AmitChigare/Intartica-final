@@ -4,6 +4,7 @@ import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
 import logo from "../../images/logo-transparent.png";
 import { useState } from "react";
+import { ROUTE_PATHS } from "../../config";
 
 const Navbar = () => {
   const location = useLocation();
@@ -18,7 +19,7 @@ const Navbar = () => {
   return (
     <nav>
       <motion.div {...hoverEffect}>
-        <Link to="/">
+        <Link to={ROUTE_PATHS.HOME}>
           <img className="home-logo" src={logo} alt="Intartica Logo" />
         </Link>
       </motion.div>
@@ -31,42 +32,63 @@ const Navbar = () => {
         <li>
           <motion.div
             {...hoverEffect}
-            className={`nav-btn ${isPageActive("/") ? "nav-active" : ""}`}
+            className={`nav-btn ${
+              isPageActive(ROUTE_PATHS.HOME) ? "nav-active" : ""
+            }`}
           >
-            <Link to="/">Home</Link>
-          </motion.div>
-        </li>
-        <li>
-          <motion.div
-            {...hoverEffect}
-            className={`nav-btn ${isPageActive("/about") ? "nav-active" : ""}`}
-          >
-            <Link to="/about">About</Link>
+            <Link to={ROUTE_PATHS.HOME}>Home</Link>
           </motion.div>
         </li>
         <li>
           <motion.div
             {...hoverEffect}
             className={`nav-btn ${
-              isPageActive("/services") ? "nav-active" : ""
+              isPageActive(ROUTE_PATHS.ABOUT) ? "nav-active" : ""
             }`}
           >
-            <Link to="/services">Services</Link>
+            <Link to={ROUTE_PATHS.ABOUT}>About</Link>
           </motion.div>
         </li>
         <li>
           <motion.div
             {...hoverEffect}
             className={`nav-btn ${
-              isPageActive("/gallery") ? "nav-active" : ""
+              isPageActive(ROUTE_PATHS.SERVICES) ||
+              isPageActive(ROUTE_PATHS.SERVICE_ARCHITECT) ||
+              isPageActive(ROUTE_PATHS.SERVICE_OWNER) ||
+              isPageActive(ROUTE_PATHS.SERVICE_BUILDER)
+                ? "nav-active"
+                : ""
             }`}
           >
-            <Link to="/gallery">Gallery</Link>
+            <Link to={ROUTE_PATHS.SERVICES}>Services</Link>
+          </motion.div>
+        </li>
+        <li>
+          <motion.div
+            {...hoverEffect}
+            className={`nav-btn ${
+              isPageActive(ROUTE_PATHS.ESTIMATOR) ? "nav-active" : ""
+            }`}
+          >
+            <Link to={ROUTE_PATHS.ESTIMATOR}>
+              Estimator <Icon icon="ph:arrow-up-right-light" />
+            </Link>
+          </motion.div>
+        </li>
+        <li>
+          <motion.div
+            {...hoverEffect}
+            className={`nav-btn ${
+              isPageActive(ROUTE_PATHS.GALLERY) ? "nav-active" : ""
+            }`}
+          >
+            <Link to={ROUTE_PATHS.GALLERY}>Gallery</Link>
           </motion.div>
         </li>
         <li>
           <motion.div {...hoverEffect} className="nav-btn contact-btn">
-            <Link className="btn btn-danger" to="/contact">
+            <Link className="btn btn-danger" to={ROUTE_PATHS.CONTACT}>
               Contact Us <Icon icon="ph:arrow-up-right-light" />
             </Link>
           </motion.div>
