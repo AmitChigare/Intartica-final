@@ -1,0 +1,21 @@
+
+.step-four .iconn{
+    width: 150px;
+    height: 150px;
+    fill: #000;
+    flex-direction: column;
+    justify-content: center;
+}
+.download-btn{
+    border-radius: 3rem;
+    background: #EB595F;
+    color: #FFF;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    padding: 1rem 2rem;
+}
+
+.download-btn .step-icon{
+    font-size: 1.5rem;
+}
