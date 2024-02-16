@@ -1,0 +1,39 @@
+.estimator-container .e-c-card{
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    margin: 15px;
+    width: 508px;
+}
+
+.estimator-container .e-c-card h1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.e-c-quantity-btn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+}
+.estimator-container .e-c-quantity-btn button{
+    color: #FFF;
+    border: none;
+    font-weight: 500;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    background: #EB595F;
+}
+
+@media screen and (max-width: 600px){
+    .estimator-container .e-c-card{
+        width: 308px;
+    }
+
+    .estimator-container .e-c-card h1{
+        font-size: 1rem !important;
+        font-weight: 600;
+    }
+}

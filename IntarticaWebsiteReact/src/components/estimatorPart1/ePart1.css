@@ -1,0 +1,26 @@
+
+.estimator-container h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    
+}
+.estimator-container p{
+    font-size: 1.1rem;
+}
+.estimator-container .span {
+    color: #EB595F;
+    font-size: 1.1rem;
+}
+
+.estimator-container .cc{
+    width: 528px;
+    margin: 10px;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 600px){
+    .estimator-container .cc {
+        width: 60vw;
+    }
+}
+
