@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./ePart3.css";
+import essentials from "../../../src/images/estimator/essentials.jpeg";
+import premium from "../../../src/images/estimator/premium.jpeg";
+import luxe from "../../../src/images/estimator/luxe.jpeg";
 
 const EPart3 = ({ nextStep, prevStep, responses }) => {
   const [selectedPackage, setSelectedPackage] = useState(
@@ -11,6 +14,7 @@ const EPart3 = ({ nextStep, prevStep, responses }) => {
     setSelectedPackage(responses.selectedPackage);
   }, [responses.selectedPackage]);
 
+  // Function to handle package change
   const handlePackageChange = (value) => {
     setSelectedPackage(value);
   };
@@ -18,26 +22,30 @@ const EPart3 = ({ nextStep, prevStep, responses }) => {
   return (
     <div className="estimator-container">
       <form>
-        <div className="step-three text-center ">
+        <div className="step-three text-center">
           <h1>Pick your package</h1>
 
-          <div className="e-c-card2 estimator-box">
-            <div>
-              <input
-                type="radio"
-                id="radio1"
-                name="title"
-                onChange={() => handlePackageChange("Essentials (₹₹)")}
-                checked={selectedPackage === "Essentials (₹₹)"}
-              />
-              <label htmlFor="radio1">Essentials (₹₹)</label>
-            </div>
+          <div
+            className={`e-c-card2 estimator-box ${
+              selectedPackage === "Essentials (₹₹)" ? "selected" : ""
+            }`}
+            onClick={() => handlePackageChange("Essentials (₹₹)")}
+          >
+            <input
+              type="radio"
+              id="radio1"
+              name="title"
+              onChange={() => {}}
+              checked={selectedPackage === "Essentials (₹₹)"}
+              style={{ display: "none" }} // Hide the radio button visually
+            />
+            <label htmlFor="radio1">Essentials (₹₹)</label>
             <p>
               A range of essential home interior solutions that's perfect for
               all your needs.
             </p>
             <div>
-              <img src="" alt="" />
+              <img src={essentials} alt="" />
             </div>
             <div>
               <p>Affordable pricing</p>
@@ -46,20 +54,24 @@ const EPart3 = ({ nextStep, prevStep, responses }) => {
             </div>
           </div>
 
-          <div className="e-c-card2 estimator-box">
-            <div>
-              <input
-                type="radio"
-                id="radio2"
-                name="title"
-                onChange={() => handlePackageChange("Premium (₹₹₹)")}
-                checked={selectedPackage === "Premium (₹₹₹)"}
-              />
-              <label htmlFor="radio2">Premium (₹₹₹)</label>
-            </div>
+          <div
+            className={`e-c-card2 estimator-box ${
+              selectedPackage === "Premium (₹₹₹)" ? "selected" : ""
+            }`}
+            onClick={() => handlePackageChange("Premium (₹₹₹)")}
+          >
+            <input
+              type="radio"
+              id="radio2"
+              name="title"
+              onChange={() => {}}
+              checked={selectedPackage === "Premium (₹₹₹)"}
+              style={{ display: "none" }} // Hide the radio button visually
+            />
+            <label htmlFor="radio2">Premium (₹₹₹)</label>
             <p>Superior home interior solutions that will</p>
             <div>
-              <img src="" alt="" />
+              <img src={premium} alt="" />
             </div>
             <div>
               <p>Mid-range pricing</p>
@@ -67,23 +79,28 @@ const EPart3 = ({ nextStep, prevStep, responses }) => {
               <p>Wide range of accessories</p>
             </div>
           </div>
-          <div className="e-c-card2 estimator-box">
-            <div>
-              <input
-                type="radio"
-                id="radio3"
-                name="title"
-                onChange={() => handlePackageChange("Luxe (₹₹₹₹)")}
-                checked={selectedPackage === "Luxe (₹₹₹₹)"}
-              />
-              <label htmlFor="radio3">Luxe (₹₹₹₹)</label>
-            </div>
+
+          <div
+            className={`e-c-card2 estimator-box ${
+              selectedPackage === "Luxe (₹₹₹₹)" ? "selected" : ""
+            }`}
+            onClick={() => handlePackageChange("Luxe (₹₹₹₹)")}
+          >
+            <input
+              type="radio"
+              id="radio3"
+              name="title"
+              onChange={() => {}}
+              checked={selectedPackage === "Luxe (₹₹₹₹)"}
+              style={{ display: "none" }} // Hide the radio button visually
+            />
+            <label htmlFor="radio3">Luxe (₹₹₹₹)</label>
             <p>
               High-end interior solutions for the ultimate home interior
               experience you deserve.
             </p>
             <div>
-              <img src="" alt="" />
+              <img src={luxe} alt="" />
             </div>
             <div>
               <p>Elite pricing</p>
