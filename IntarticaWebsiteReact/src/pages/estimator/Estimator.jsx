@@ -35,6 +35,8 @@ const Estimator = () => {
     setStep((prevStep) => prevStep - 1);
   };
 
+  console.log(responses);
+
   return (
     <>
       <Navbar />

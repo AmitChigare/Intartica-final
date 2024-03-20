@@ -37,9 +37,12 @@
 }
 
 .estimator-box{
-    border-radius: 4px;
-    border: 1px solid #F5F4F5;
+    border-radius: 10px;
+    border: 1px solid #E52B50;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+    margin: 1rem;
+    margin-bottom: 2rem;
 }
 
 .estimator-container input[type="radio"] {
@@ -84,6 +87,17 @@
     font-size: 1.1rem;
 }
 
+.estimator-container input[type="radio"]:checked + label:before {
+    background-color: #fff; 
+    border: 6px solid #EB595F;
+}
+
+/* Increase box shadow for selected estimator-box */
+.estimator-box.selected {
+    box-shadow: 0px 4px 16px 4px rgba(0, 0, 0, 0.2);
+}
+
+
 @media screen and (max-width: 600px){
     .estimator-nav-btn button{
         padding: .7rem 1.5rem;
@@ -95,6 +109,14 @@
     }
 
     .estimator-container h1{
-        font-size: 1.8rem !important;
+        font-size: 1.5rem !important;
+        font-weight: 600 !important;
+    }
+
+    .estimator-container p{
+        font-size: 0.75rem !important;
+    }
+    .estimator-container p .span {
+        font-size: 0.75rem !important;
     }
 }
