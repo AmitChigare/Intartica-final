@@ -22,13 +22,6 @@ const AboutSection = ({ images, home }) => {
               been on a mission to turn houses into homes, celebrating the bond
               of family and community.
             </p>
-            <p className="about-para">
-              We approach each project as a masterpiece, working collaboratively
-              like a family to bring your vision to life. Our commitment to
-              experimentation, compelling ideas, and unique techniques ensures
-              an ultimate user experience, making us your one-stop solution for
-              interior design and execution.
-            </p>
           </div>
         )}
         {!home && (

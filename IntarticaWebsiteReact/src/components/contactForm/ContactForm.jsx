@@ -99,6 +99,7 @@ const ContactForm = ({ onSubmit }) => {
           onBlur={formik.handleBlur}
           value={formik.values.source}
           placeholder="How did you know about us?"
+          style={{ color: "grey" }}
         >
           <option value="" disabled>
             How did you know about us?

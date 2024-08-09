@@ -12,8 +12,8 @@
     top: 50%;
     left: 5%;
     transform: translate(0, -50%);
-    width: 35%;
-    font-family: Eudoxus Sans;
+    width: 30%;
+    font-family: Inter;
 }
 
 .service-bg .info h1{

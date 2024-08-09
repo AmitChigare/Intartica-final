@@ -1,19 +1,24 @@
 .black-heading{
     color: var(--neutral-900, #2C2C2C);
-    font-family: Playfair Display;
-    font-size: 3.5rem;
+    /* font-family: Playfair Display; */
+    font-family: Inter;
+    font-size: 3.2rem;
 }
 .red-heading{
     color: #E52B50;
-    font-family: Playfair Display;
-    font-size: 3.5rem;
+    /* font-family: Playfair Display; */
+    font-family: Inter;
+    font-size: 3.2rem;
+
+    font-style: italic;
 }
 .cc{
     width: 350px;
 }
 .recent{
     color: var(--primary-600, #996830);
-    font-family: Outfit;
+    /* font-family: Outfit; */
+    font-family: Inter;
     font-size: 14px;
     font-weight: 600;
     line-height: 20px; /* 142.857% */
