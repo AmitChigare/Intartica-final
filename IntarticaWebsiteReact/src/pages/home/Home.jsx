@@ -173,11 +173,13 @@ const Home = () => {
 
       <div className="video-container">
         {showForm && (
-          <div className="contact-home">
+          <div className="contact-home" style={{ fontFamily: "inherit" }}>
             <button className="close-button" onClick={handleCloseForm}>
               &#10006;
             </button>
-            <h3>Designs for Every Budget</h3>
+            <h3 style={{ fontFamily: "inherit", marginBottom: "18px" }}>
+              Designs for Every Budget
+            </h3>
             <form
               onSubmit={formik.handleSubmit}
               className="contact-form-container"
@@ -242,13 +244,16 @@ const Home = () => {
               ) : null} */}
               </div>
 
-              <button type="submit">GET FREE QUOTE</button>
+              <button
+                type="submit"
+                style={{ fontFamily: "inherit", border: "1px solid white" }}
+              >
+                GET FREE QUOTE
+              </button>
             </form>
-            <p>
+            <p style={{ fontFamily: "inherit", marginTop: "12px" }}>
               By submitting this form you agree to the{" "}
-              <span className="" style={{ color: "black" }}>
-                privacy policy & Terms and conditions
-              </span>
+              <span>privacy policy & Terms and conditions</span>
             </p>
           </div>
         )}

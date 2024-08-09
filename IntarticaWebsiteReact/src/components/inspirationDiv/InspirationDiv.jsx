@@ -9,8 +9,8 @@ const InspirationDiv = () => {
         <img src={bedroomImg01} alt="crashed" className="crashed" />
       </div>
       <div className="d-flex flex-column justify-content-between ">
+        <h1 className="interior-h">Our Inspirations</h1>
         <div>
-          <h1 className="interior-h">Our Inspirations</h1>
           <p className="interior-p">
             The name "Intartica" itself is a creative evolution, symbolizing a
             journey from a "collection of art" to "Collection of Interior Art"

@@ -98,6 +98,7 @@ a{
 .video-container .contact-home input {
   background-color: transparent;
   border: 1px solid #fff;
+  padding: 15px;
 }
 .video-container .contact-home button {
   border-radius: 4rem;

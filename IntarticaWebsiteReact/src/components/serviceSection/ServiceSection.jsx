@@ -46,8 +46,7 @@ const ServiceSection = () => {
         <div className="about-container m-3">
           <h1 className="typography">
             Services That Transform,
-            <span className="spaces"> Spaces</span> That{" "}
-            <span className="transcend">Transcend</span>
+            <span className="spaces"> Spaces</span> That Transcend
           </h1>
           <p className="about-para">
             We approach each project as a masterpiece, working collaboratively

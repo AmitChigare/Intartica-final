@@ -5,9 +5,9 @@
     font-weight: 600;
 }
 .interior-p{
-    color: #545454;
-    font-family: Inter;
-    font-size: 1.6rem;
+    /* color: #545454; */
+    font-family: Inter !important;
+    font-size: 1.4rem;
     font-weight: 500;
     line-height: 165.2%; /* 46.256px */
 }

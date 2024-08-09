@@ -27,7 +27,7 @@
 
 .contact-info h1{
     color: var(--black, #000);
-    font-family: Montserrat;
+    font-family: Inter;
     font-size: 54px;
     font-weight: 700;
 }
@@ -64,6 +64,7 @@
 
     .contact-info p{
         font-size: 12px;
+        font-family: Inter;
     }
 
     .contact-info{
