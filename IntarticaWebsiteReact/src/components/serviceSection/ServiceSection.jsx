@@ -55,6 +55,9 @@ const ServiceSection = () => {
             ultimate user experience, making us your one-stop solution for
             interior design and execution.
           </p>
+          <button className="btn btn-danger px-3 py-1 mt-2">
+            <a href="/services">Learn More</a>
+          </button>
         </div>
         <div className="corousel-about">
           <MyCarousel images={carouselImages} main={false} />

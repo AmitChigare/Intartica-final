@@ -15,3 +15,12 @@
 ::-webkit-scrollbar-track {
   background-color: #fff; /* Set the color of the track (the non-draggable part) */
 }
+
+.btn-danger{
+  background-color: #E52B50 !important;
+}
+
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
