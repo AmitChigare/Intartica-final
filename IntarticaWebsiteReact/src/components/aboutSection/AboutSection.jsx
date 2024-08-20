@@ -22,6 +22,9 @@ const AboutSection = ({ images, home }) => {
               been on a mission to turn houses into homes, celebrating the bond
               of family and community.
             </p>
+            <button className="btn btn-danger px-3 py-1 mt-2">
+              <a href="/about">Learn More</a>
+            </button>
           </div>
         )}
         {!home && (

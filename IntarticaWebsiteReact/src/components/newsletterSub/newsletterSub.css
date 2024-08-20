@@ -41,9 +41,10 @@
     width: 275px;
     height: 3.5rem;
     border-radius: 4px;
-    background: #1F1F1F;
+    background: #0054A2;
     color: white;
     text-transform: uppercase;
+    border: none;
 }
 
 @media screen and (max-width: 600px) {
